@@ -4,8 +4,10 @@ import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#0d0e10] text-white px-6 md:px-8 min-h-[90px] border-b border-gray-800">
-
+    
+    <div className="navbar bg-[#0d0e10] text-white px-6 md:px-8 min-h-[90px] 
+    border-b border-gray-800 ">
+      
       {/* Left: Logo */}
       <div className="navbar-start">
         <div className="flex items-center gap-3">
